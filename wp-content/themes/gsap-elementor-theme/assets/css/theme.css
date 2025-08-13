@@ -1,0 +1,15 @@
+/* Additional theme styling (kept minimal for Elementor) */
+.site-title { font-weight: 600; font-size: 1.125rem; margin-left: 8px; }
+.menu { list-style: none; padding: 0; margin: 0; display: flex; gap: 16px; }
+.entry-title { margin: 0 0 8px; }
+.entry-content { margin-bottom: 24px; }
+.page-header { margin: 24px 0; }
+
+.button, .wp-element-button, .wp-block-button__link, .elementor-button {
+  display: inline-block;
+  background: var(--ge-accent);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
